@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Simples - E-commerce</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Loja Simples</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Voltar ao Portfólio</a></li>
+                    <li><a href="index2.html">Ir para o Blog</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#carrinho">Carrinho</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="produtos" class="section">
+        <h2>Produtos</h2>
+        <div class="produtos-container">
+            <div class="produto" data-id="1">
+                <img src="img/tenis-esportivo.jpeg" alt="Tênis Esportivo">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 199,99</p>
+                <button class="adicionar" data-id="1">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-id="2">
+                <img src="img/camiseta-nike.jpeg" alt="Camiseta Nike">
+                <h3>Camiseta Nike</h3>
+                <p>R$ 129,99</p>
+                <button class="adicionar" data-id="2">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-id="3">
+                <img src="img/jaqueta-nike.png" alt="Jaqueta Nike">
+                <h3>Jaqueta Nike</h3>
+                <p>R$ 299,99</p>
+                <button class="adicionar" data-id="3">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-id="4">
+                <img src="img/tenis-casual.jpeg" alt="Tênis Casual">
+                <h3>Tênis Casual</h3>
+                <p>R$ 249,99</p>
+                <button class="adicionar" data-id="4">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="carrinho" class="section">
+        <h2>Carrinho de Compras</h2>
+        <div id="itensCarrinho">
+            <p>Seu carrinho está vazio.</p>
+        </div>
+        <div id="totalCarrinho">
+            <p>Total: R$ 0,00</p>
+        </div>
+        <button id="finalizarCompra">Finalizar Compra</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Loja Simples | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 15px;
+}
+
+header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.produtos-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: 22%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.produto p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+#itensCarrinho {
+    margin-bottom: 20px;
+}
+
+#finalizarCompra {
+    background-color: #28a745;
+}
+
+#finalizarCompra:hover {
+    background-color: #218838;
+}
